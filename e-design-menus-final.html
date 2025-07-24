@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-design - Menus</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #000000;
+        }
+
+        header {
+            background-color: #000000;
+            padding: 1rem;
+            text-align: center;
+            color: #FFD700;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+        .notice {
+            background-color: #FFD700;
+            color: #000000;
+            text-align: center;
+            font-size: 1.5rem;
+            padding: 1rem;
+            font-weight: bold;
+        }
+
+        .gallery {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+            padding: 2rem;
+        }
+
+        .menu-item {
+            text-align: center;
+            max-width: 90%;
+        }
+
+        .menu-item img {
+            max-width: 100%;
+            height: auto;
+            border: 3px solid #FFD700;
+            border-radius: 10px;
+        }
+
+        .menu-item p {
+            margin-top: 0.5rem;
+            font-weight: bold;
+        }
+
+        .contact {
+            text-align: center;
+            margin: 2rem;
+        }
+
+        .whatsapp-button {
+            background-color: #25D366;
+            color: white;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1.2rem;
+            text-decoration: none;
+        }
+
+        @media (min-width: 768px) {
+            .gallery {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .menu-item {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>e-design</header>
+
+    <div class="notice">⚠️ ON PAIE AVANT QUE JE NE COMMENCE LE TRAVAIL ⚠️</div>
+
+    <div class="gallery">
+        <div class="menu-item">
+            <img src="Brown Orange Organic Fried Chicken Menu_20250723_114945_0000.png" alt="Menu Fried Chicken">
+            <p>Brown Orange Organic Fried Chicken Menu</p>
+        </div>
+        <div class="menu-item">
+            <img src="Black Yellow Modern Restaurant Food Menu A4 Document_20250723_110333_0000.png" alt="Menu Restaurant Moderne">
+            <p>Black Yellow Modern Restaurant Food Menu</p>
+        </div>
+        <div class="menu-item">
+            <img src="Black And Red Modern Fast Food Menu_20250723_110212_0000.png" alt="Menu Fast Food">
+            <p>Black And Red Modern Fast Food Menu</p>
+        </div>
+    </div>
+
+    <div class="contact">
+        <a class="whatsapp-button" href="https://wa.me/2250565663467" target="_blank">Commander sur WhatsApp</a>
+    </div>
+
+</body>
+</html>
